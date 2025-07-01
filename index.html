@@ -17,12 +17,12 @@
       padding: 50px;
     }
 
-    h1 {
-      font-size: 3em;
-      color: #ff4081;
-      text-shadow: 2px 2px #ff1744;
-      animation: pulse 1.5s infinite;
-    }
+h1 {
+  font-size: 3em;
+  color: #ffd700; /* Bright gold */
+  text-shadow: 2px 2px #000; /* Deeper shadow for visibility */
+  animation: pulse 1.5s infinite;
+}
 
     @keyframes pulse {
       0% { transform: scale(1); }
@@ -30,21 +30,22 @@
       100% { transform: scale(1); }
     }
 
-    .poem {
-      background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.2));
-      padding: 30px;
-      margin-top: 30px;
-      font-size: 1.5em;
-      line-height: 1.6em;
-      position: relative;
-      z-index: 1;
-      color: #fff;
-      border-radius: 20px;
-      box-shadow:
-        0 0 0 4px #ffcc00,
-        0 0 10px 4px #ff69b4,
-        0 0 30px 8px rgba(255, 204, 0, 0.5);
-    }
+.poem {
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.2));
+  padding: 30px;
+  margin-top: 30px;
+  font-size: 1.5em;
+  line-height: 1.6em;
+  position: relative;
+  z-index: 1;
+  color: #ffe59e; /* soft coral gold */
+  text-shadow: 1px 1px 2px #000; /* dark glow for readability */
+  border-radius: 20px;
+  box-shadow:
+    0 0 0 4px #ffcc00,
+    0 0 10px 4px #ff69b4,
+    0 0 30px 8px rgba(255, 204, 0, 0.5);
+}
 
     button {
       margin-top: 20px;
